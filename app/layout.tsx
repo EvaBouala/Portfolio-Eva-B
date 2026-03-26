@@ -22,21 +22,9 @@ export const metadata: Metadata = {
   keywords:
     "Eva Bouala, Eva B, développeuse web, designer, portfolio, développement web",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/images/icone.png",
+    shortcut: "/images/icone.png",
+    apple: "/images/icone.png",
   },
 };
 
