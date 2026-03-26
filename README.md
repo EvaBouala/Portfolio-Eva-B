@@ -23,9 +23,7 @@ Ce projet est une vitrine moderne et responsive qui met en avant :
 
 ## Demo
 
-<div align="center">
-	<img src="./portfolio-2026-gif.gif" alt="Demo du portfolio" width="900" />
-</div>
+- Video demo : [https://youtu.be/1MpgSrf5XsI](https://youtu.be/1MpgSrf5XsI)
 
 ## Acces rapide
 
