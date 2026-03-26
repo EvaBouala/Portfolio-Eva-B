@@ -21,6 +21,12 @@ Ce projet est une vitrine moderne et responsive qui met en avant :
 - Mes competences techniques
 - Un espace de contact
 
+## Demo
+
+<div align="center">
+	<img src="./portfolio-2026-gif.gif" alt="Demo du portfolio" width="900" />
+</div>
+
 ## Acces rapide
 
 - Site live : [https://eva-bouala-iota-ashen.vercel.app/](https://eva-bouala-iota-ashen.vercel.app/)
