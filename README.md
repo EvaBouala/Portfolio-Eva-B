@@ -21,6 +21,10 @@ Ce projet est une vitrine moderne et responsive qui met en avant :
 - Mes competences techniques
 - Un espace de contact
 
+## Demo
+
+- Video demo : [https://youtu.be/1MpgSrf5XsI](https://youtu.be/1MpgSrf5XsI)
+
 ## Acces rapide
 
 - Site live : [https://eva-bouala-iota-ashen.vercel.app/](https://eva-bouala-iota-ashen.vercel.app/)

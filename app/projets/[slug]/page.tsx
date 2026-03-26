@@ -99,7 +99,7 @@ export default async function ProjectDetailPage({
 
                 <div className="bg-cream overflow-hidden border border-gold/30">
                   {!embedUrl ? (
-                    <div className="w-full min-h-[320px] md:min-h-[460px] flex items-center justify-center px-6 text-center text-muted-foreground">
+                    <div className="w-full min-h-80 md:min-h-screen flex items-center justify-center px-6 text-center text-muted-foreground">
                       Apercu media indisponible pour ce projet.
                     </div>
                   ) : (
