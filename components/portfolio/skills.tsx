@@ -12,6 +12,7 @@ const skillCategories = [
       "C",
       "SQL",
       "JavaScript",
+      "TypeScript",
       "PHP",
       "HTML",
       "CSS",
@@ -36,6 +37,7 @@ const skillCategories = [
       "Canva",
       "WordPress",
       "Vite",
+      "Figma",
     ],
   },
   {
