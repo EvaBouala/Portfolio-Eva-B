@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { PdfSlider } from "@/components/portfolio/pdf-slider";
 import { getProjectBySlug, projectsData } from "@/lib/projects-data";
 
 type ProjectDetailPageProps = {
@@ -49,6 +50,7 @@ export default async function ProjectDetailPage({
   }
 
   const embedUrl = getYouTubeEmbedUrl(project.demoUrl);
+  const pdfUrl = project.pdfUrl;
 
   return (
     <main className="min-h-screen bg-sand py-20 relative overflow-hidden">
@@ -98,11 +100,7 @@ export default async function ProjectDetailPage({
                 <div className="absolute bottom-0 right-0 w-10 h-10 border-r-2 border-b-2 border-gold" />
 
                 <div className="bg-cream overflow-hidden border border-gold/30">
-                  {!embedUrl ? (
-                    <div className="w-full min-h-80 md:min-h-screen flex items-center justify-center px-6 text-center text-muted-foreground">
-                      Apercu media indisponible pour ce projet.
-                    </div>
-                  ) : (
+                  {embedUrl ? (
                     <div className="w-full">
                       <div className="relative w-full aspect-video">
                         <iframe
@@ -124,6 +122,12 @@ export default async function ProjectDetailPage({
                           Ouvrir la demonstration sur YouTube
                         </a>
                       </div>
+                    </div>
+                  ) : pdfUrl ? (
+                    <PdfSlider pdfUrl={pdfUrl} title={project.title} />
+                  ) : (
+                    <div className="w-full min-h-80 md:min-h-screen flex items-center justify-center px-6 text-center text-muted-foreground">
+                      Apercu media indisponible pour ce projet.
                     </div>
                   )}
                 </div>

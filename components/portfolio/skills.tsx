@@ -5,6 +5,18 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 
 const skillCategories = [
+    {
+    title: "Gestion de projet",
+    skills: [
+      "Rédaction de cahiers des charges",
+      "User stories",
+      "Plannings",
+      "Priorisation des tâches",
+      "Analyse des besoins utilisateurs",
+      "Méthode Scrum",
+      "Méthode Agile",
+    ],
+  },
   {
     title: "Langages et Frameworks",
     skills: [
@@ -22,6 +34,8 @@ const skillCategories = [
       "Symfony",
       "Next.js",
       "React",
+      "API",
+      "SEO",
     ],
   },
   {
@@ -31,11 +45,13 @@ const skillCategories = [
       "Excel",
       "PowerPoint",
       "Genially",
-      "Visual Studio Code",
-      "Github",
-      "MySQL",
       "Canva",
+      "Visual Studio Code",
+      "GitHub",
+      "MySQL Workbench",
+      "phpMyAdmin",
       "WordPress",
+      "CMS",
       "Vite",
       "Figma",
     ],
@@ -49,17 +65,21 @@ const skillCategories = [
       "Communication claire",
       "Adaptabilité",
       "Leadership",
-      "Supervision d'équipe",
+      "Encadrement d'une équipe",
+      "Résolution de conflits",
     ],
   },
 ];
 
 const technologies = [
+  { name: "Rédaction de cahiers des charges", level: 95 },
+  { name: "Priorisation des tâches", level: 85 },
+  { name: "User stories", level: 85 },
+  { name: "Analyse des besoins utilisateurs", level: 90 },
+  { name: "Plannings", level: 88 },
+  { name: "SQL", level: 88 },
   { name: "HTML/CSS", level: 95 },
   { name: "Next.js", level: 88 },
-  { name: "PHP", level: 88 },
-  { name: "Tailwind CSS", level: 90 },
-  { name: "Python", level: 85 },
 ];
 
 export function Skills() {
@@ -95,7 +115,6 @@ export function Skills() {
             <div className="space-y-10">
               {skillCategories.map((category, catIndex) => (
                 <motion.div
-                  key={category.title}
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.6, delay: 0.2 + catIndex * 0.1 }}
@@ -132,7 +151,7 @@ export function Skills() {
               <div className="absolute bottom-0 right-0 w-8 h-8 border-r-2 border-b-2 border-gold" />
 
               <h3 className="font-serif text-2xl text-navy mb-10">
-                Maîtrise technique
+                Maîtrise technique & Management
               </h3>
 
               <div className="space-y-8">

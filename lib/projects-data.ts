@@ -9,6 +9,7 @@ export type ProjectItem = {
   color: string;
   imageSrc: string;
   demoUrl?: string;
+  pdfUrl?: string;
   featured?: boolean;
 };
 
@@ -126,6 +127,27 @@ export const projectsData: ProjectItem[] = [
     color: "bg-gold",
     imageSrc: "/images/chatbot.png",
     demoUrl: "https://youtu.be/4yqFBr0aM5M",
+  },
+  {
+    id: 9,
+    slug: "site-web-association-cheffe-projet",
+    title: "Site Web d'Association",
+    category: "Gestion de projet",
+    description:
+      "Cheffe de projet sur la création d'un site web associatif, de la conception à la livraison.",
+    longDescription:
+      "En tant que Cheffe de Projet, j'ai piloté de bout en bout la création du site web d'une association, de la conception à la livraison. J'ai coordonné une solution clé en main, pensée pour renforcer la visibilité de l'association et soutenir ses objectifs de conversion. J'ai également défini les user stories, cadré les besoins fonctionnels et priorisé les fonctionnalités afin de livrer un site clair, utile et directement exploitable.",
+    tags: [
+      "Gestion de projet",
+      "User stories",
+      "Priorisation",
+      "Site web",
+      "Conversion",
+    ],
+    color: "bg-tan",
+    imageSrc: "/images/site-web-asso.png",
+    pdfUrl: "/pdf/presentation.pdf",
+    featured: true,
   },
 ];
 
