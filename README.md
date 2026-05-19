@@ -67,7 +67,7 @@ npm run start
 
 ## Contact
 
-Pour une collaboration, un stage ou une mission, utilise la section Contact sur le portfolio.
+Pour une collaboration, un stage, une alternance ou autre, utilisez la section Contact sur le portfolio.
 
 ---
 
