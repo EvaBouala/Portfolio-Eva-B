@@ -15,6 +15,65 @@ export type ProjectItem = {
 
 export const projectsData: ProjectItem[] = [
   {
+    id: 10,
+    slug: "stage-reltim-refonte-wordpress",
+    title: "Stage RELTIM - Refonte Web",
+    category: "Stage de fin d'année",
+    description:
+      "Stage de 3,5 mois en autonomie complète sur la refonte de plateformes WordPress.",
+    longDescription:
+      "Ce projet correspond à mon stage de fin d'année chez RELTIM, réalisé sur 3,5 mois. J'y ai tenu un rôle complet en étant à la fois Cheffe de Projet, Web Designer et Développeuse Web.\n\nJ'ai conduit la refonte stratégique de deux plateformes WordPress : création de wireframes, maquettes, identité visuelle et intégration complète, en m'alignant sur les préférences de l'équipe et les objectifs métier.\n\nLe travail a aussi intégré l'optimisation SEO, l'analyse des parcours utilisateurs via Google Analytics, ainsi que le pilotage d'un tableau de bord Power BI pour suivre les KPI marketing (génération de leads et performance des campagnes) et orienter les décisions.\n\nEn plein milieu du stage, le projet a changé de direction, ce qui a repoussé la finalisation complète pour une reprise probable par un autre développeur. Avant la fin de mon stage, j'ai tout de même livré un site fonctionnel. Le contexte et les détails sont présentés au début de la vidéo.",
+    tags: [
+      "Stage",
+      "WordPress",
+      "Gestion de projet",
+      "UX/UI",
+      "SEO",
+      "Google Analytics",
+      "Power BI",
+    ],
+    color: "bg-navy",
+    imageSrc: "/images/reltim-stage-vertical.png",
+    demoUrl: "https://youtu.be/f2jHYZy9TH0",
+    featured: true,
+  },
+  {
+    id: 9,
+    slug: "site-web-association-cheffe-projet",
+    title: "Site Web d'Association",
+    category: "Gestion de projet",
+    description:
+      "Cheffe de projet sur la création d'un site web associatif, de la conception à la livraison.",
+    longDescription:
+      "En tant que Cheffe de Projet, j'ai piloté de bout en bout la création du site web d'une association, de la conception à la livraison. J'ai coordonné une solution clé en main, pensée pour renforcer la visibilité de l'association et soutenir ses objectifs de conversion. J'ai également défini les user stories, cadré les besoins fonctionnels et priorisé les fonctionnalités afin de livrer un site clair, utile et directement exploitable.",
+    tags: [
+      "Gestion de projet",
+      "User stories",
+      "Priorisation",
+      "Site web",
+      "Conversion",
+    ],
+    color: "bg-tan",
+    imageSrc: "/images/site-web-asso-vertical.png",
+    pdfUrl: "/pdf/presentation.pdf",
+    featured: true,
+  },
+  {
+    id: 8,
+    slug: "ai-chatbot",
+    title: "AI Chatbot",
+    category: "Intelligence Artificielle",
+    description:
+      "Projet de chatbot conversationnel avec interface claire et réponses dynamiques.",
+    longDescription:
+      "Ce projet met en avant un chatbot IA concu pour fluidifier les interactions utilisateur. Le travail se concentre sur l'experience conversationnelle, l'ergonomie de l'interface et la qualite des reponses.",
+    tags: ["JavaScript", "HTML/CSS"],
+    color: "bg-gold",
+    imageSrc: "/images/chatbot-vertical.png",
+    demoUrl: "https://youtu.be/4yqFBr0aM5M",
+    featured: true,
+  },
+  {
     id: 1,
     slug: "christmas-shop-crud",
     title: "Christmas Shop CRUD",
@@ -28,6 +87,20 @@ export const projectsData: ProjectItem[] = [
     imageSrc: "/images/Christmas-Shop-2.png",
     demoUrl: "https://youtu.be/UqXgzJBKhAM",
     featured: true,
+  },
+  {
+    id: 7,
+    slug: "video-pixel-trader",
+    title: "Pixel Trader",
+    category: "Projet Digital",
+    description:
+      "Concept digital avec univers visuel marqué et mécaniques intéractives.",
+    longDescription:
+      "Ce projet combine identité visuelle et logique produit pour présenter une expérience engageante autour d'un concept digital original.",
+    tags: ["PHP", "CSS", "JavaScript"],
+    color: "bg-tan",
+    imageSrc: "/images/pixel-trader.png",
+    demoUrl: "https://youtu.be/joPIAB6JLfM",
   },
   {
     id: 2,
@@ -53,7 +126,7 @@ export const projectsData: ProjectItem[] = [
     longDescription:
       "Ce projet se concentre sur la gestion de publications et commentaires avec une structure pensée pour l'administration et la qualité des échanges.",
     tags: ["Nuxt.js", "Vue.js", "Gestion de contenu"],
-    color: "bg-tan",
+    color: "bg-navy",
     imageSrc: "/images/posts-commentaires-2.png",
     demoUrl: "https://youtu.be/C0eyjOm2vOI",
     featured: true,
@@ -68,7 +141,7 @@ export const projectsData: ProjectItem[] = [
     longDescription:
       "Ce projet IoT illustre une approche orientée produit, entre technique, tests et mise en valeur de cas d'usage concrets.",
     tags: ["IoT", "Python", "Prototype", "Developpement"],
-    color: "bg-navy",
+    color: "bg-tan",
     imageSrc: "/images/IOT-2.png",
     demoUrl: "https://youtu.be/qarocfXjyyY",
     featured: true,
@@ -96,58 +169,9 @@ export const projectsData: ProjectItem[] = [
     longDescription:
       "Lexilala est un projet mené lors de ma première BAP avec un client réel : Lexilala, sous-firme de Dulala. L'objectif était de concevoir un site web facilitant l'intégration des enfants étrangers et de leurs familles en France, grâce à des parcours d'apprentissage de la langue variés, ludiques et accessibles. La plateforme est également pensée pour un usage en classe, afin de permettre aux professeurs de s'appuyer sur des contenus pédagogiques adaptés. Sur ce projet, j'ai contribué en tant que développeuse web, avec un focus sur l'intégration front-end, la structure des pages et la qualité de l'expérience utilisateur.",
     tags: ["HTML/CSS", "SASS", "WordPress", "PHP", "UX/UI"],
-    color: "bg-tan",
+    color: "bg-navy",
     imageSrc: "/images/Lexilala.png",
     demoUrl: "https://youtu.be/2a94MAWPDLs",
-  },
-  {
-    id: 7,
-    slug: "video-pixel-trader",
-    title: "Pixel Trader",
-    category: "Projet Digital",
-    description:
-      "Concept digital avec univers visuel marqué et mécaniques intéractives.",
-    longDescription:
-      "Ce projet combine identité visuelle et logique produit pour présenter une expérience engageante autour d'un concept digital original.",
-    tags: ["PHP", "CSS", "JavaScript"],
-    color: "bg-navy",
-    imageSrc: "/images/pixel-trader.png",
-    demoUrl: "https://youtu.be/joPIAB6JLfM",
-  },
-  {
-    id: 8,
-    slug: "ai-chatbot",
-    title: "AI Chatbot",
-    category: "Intelligence Artificielle",
-    description:
-      "Projet de chatbot conversationnel avec interface claire et réponses dynamiques.",
-    longDescription:
-      "Ce projet met en avant un chatbot IA concu pour fluidifier les interactions utilisateur. Le travail se concentre sur l'experience conversationnelle, l'ergonomie de l'interface et la qualite des reponses.",
-    tags: ["JavaScript", "HTML/CSS"],
-    color: "bg-gold",
-    imageSrc: "/images/chatbot.png",
-    demoUrl: "https://youtu.be/4yqFBr0aM5M",
-  },
-  {
-    id: 9,
-    slug: "site-web-association-cheffe-projet",
-    title: "Site Web d'Association",
-    category: "Gestion de projet",
-    description:
-      "Cheffe de projet sur la création d'un site web associatif, de la conception à la livraison.",
-    longDescription:
-      "En tant que Cheffe de Projet, j'ai piloté de bout en bout la création du site web d'une association, de la conception à la livraison. J'ai coordonné une solution clé en main, pensée pour renforcer la visibilité de l'association et soutenir ses objectifs de conversion. J'ai également défini les user stories, cadré les besoins fonctionnels et priorisé les fonctionnalités afin de livrer un site clair, utile et directement exploitable.",
-    tags: [
-      "Gestion de projet",
-      "User stories",
-      "Priorisation",
-      "Site web",
-      "Conversion",
-    ],
-    color: "bg-tan",
-    imageSrc: "/images/site-web-asso.png",
-    pdfUrl: "/pdf/presentation.pdf",
-    featured: true,
   },
 ];
 

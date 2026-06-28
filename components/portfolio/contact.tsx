@@ -92,7 +92,7 @@ export function Contact() {
             {/* Contact Info */}
             <div className="space-y-6">
               <motion.a
-                href="mailto:eva.bouala@edu.devinci.fr"
+                href="mailto:evabouala@gmail.com"
                 initial={{ opacity: 0, x: -20 }}
                 animate={isInView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.3 }}
@@ -113,9 +113,7 @@ export function Contact() {
                     />
                   </svg>
                 </span>
-                <span className="text-sm tracking-wide">
-                  eva.bouala@edu.devinci.fr
-                </span>
+                <span className="text-sm tracking-wide">evabouala@gmail.com</span>
               </motion.a>
 
               <motion.a
@@ -175,13 +173,13 @@ export function Contact() {
                 CV français
               </CursorFollowButton>
 
-              <CursorFollowButton
+              {/* <CursorFollowButton
                 href="/cv/Eva_Bouala_Resume_EN.pdf"
                 className="px-6 py-3 border border-gold/50 bg-sand text-navy text-sm tracking-wide uppercase hover:bg-gold hover:text-navy transition-all duration-300"
                 orbClassName="bg-navy/25"
               >
                 English CV
-              </CursorFollowButton>
+              </CursorFollowButton> */}
             </motion.div>
           </motion.div>
 

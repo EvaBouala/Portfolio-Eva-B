@@ -5,7 +5,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 
 const skillCategories = [
-    {
+  {
     title: "Gestion de projet",
     skills: [
       "Rédaction de cahiers des charges",

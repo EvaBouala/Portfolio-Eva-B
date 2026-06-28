@@ -51,6 +51,7 @@ export default async function ProjectDetailPage({
 
   const embedUrl = getYouTubeEmbedUrl(project.demoUrl);
   const pdfUrl = project.pdfUrl;
+  const longDescriptionParagraphs = project.longDescription.split("\n\n");
 
   return (
     <main className="min-h-screen bg-sand py-20 relative overflow-hidden">
@@ -79,9 +80,16 @@ export default async function ProjectDetailPage({
                 <div className="w-12 h-px bg-navy" />
                 <div className="w-2 h-2 rounded-full bg-gold" />
               </div>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                {project.longDescription}
-              </p>
+              <div className="mb-6 space-y-4">
+                {longDescriptionParagraphs.map((paragraph, index) => (
+                  <p
+                    key={`${project.slug}-paragraph-${index}`}
+                    className="text-muted-foreground leading-relaxed"
+                  >
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span

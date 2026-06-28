@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Eva Bouala | Développeuse Web & Designer & chef de projet digital",
+  title: "Eva Bouala | Chef de Projet Digital & Développeuse Web & Designer",
   description:
     "Portfolio d'Eva Bouala - Développeuse web passionnée par le design, créant des expériences digitales élégantes et performantes. Découvrez les projets de Eva B: développement web, design et solutions digitales innovantes.",
   generator: "v0.app",

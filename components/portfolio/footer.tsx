@@ -29,7 +29,10 @@ export function Footer() {
                 href: "https://www.linkedin.com/in/eva-bouala-75b87b38b/",
               },
               { label: "GitHub", href: "https://github.com/EvaBouala" },
-              { label: "Email", href: "mailto:eva.bouala@edu.devinci.fr" },
+              {
+                label: "Email",
+                href: "mailto:evabouala@gmail.com",
+              },
             ].map((social) => (
               <a
                 key={social.label}

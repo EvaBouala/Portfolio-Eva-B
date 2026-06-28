@@ -21,9 +21,9 @@ function ProjectCard({
   const isInView = useInView(ref, { once: true, margin: "-50px" });
   const [isHovered, setIsHovered] = useState(false);
   const projectButtonClass =
-    project.slug === "convertisseur-devises"
+    project.color === "bg-gold"
       ? "bg-gold/85 text-navy border-navy/30"
-      : project.slug === "gestion-commentaires-posts"
+      : project.color === "bg-tan"
         ? "bg-tan/90 text-navy border-navy/30"
         : "bg-navy/60 text-cream border-cream/50";
 

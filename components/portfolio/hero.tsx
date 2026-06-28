@@ -68,7 +68,7 @@ export function Hero() {
           ease: "easeInOut",
           delay: 0.6,
         }}
-        className="absolute top-48 right-[10%] w-16 h-16 rounded-full bg-gold opacity-80"
+        className="absolute top-64 right-[10%] w-16 h-16 rounded-full bg-gold opacity-80"
       />
       <motion.div
         animate={{ y: [0, -8, 0], x: [0, 10, 0], scale: [1, 1.03, 1] }}
